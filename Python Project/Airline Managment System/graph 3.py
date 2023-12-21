@@ -10,23 +10,22 @@ mydb = mysql.connector.connect(host="localhost",
 mycursor = mydb.cursor()
  
 # Fecthing Data From mysql to my python progame
-mycursor.execute("select destination,charges from flights")
+mycursor.execute("select AIRLINES_NAME,DESTINATION from flights")
 result = mycursor.fetchall
  
+AIRLINES_NAME = []
 DESTINATION = []
-CHARGES = []
  
 for i in mycursor:
-    DESTINATION.append(i[0])
-    CHARGES.append(i[1])
+    AIRLINES_NAME.append(i[0])
+    DESTINATION.append(i[1])
      
-print("DESTINATION = ", DESTINATION)
-print("CHARGES = ", CHARGES)
+print("AIRLINES_NAME = ", AIRLINES_NAME)
+print("DESTINATION= ", DESTINATION)
  
  
 # Visulizing Data using Matplotlib
-plt.bar(DESTINATION, CHARGES)
-plt.xlabel("DESTINATION")
-plt.ylabel("CHARGES")
+plt.bar(AIRLINES_NAME, height= 5)
+
 plt.title("AIRLINE")
 plt.show()

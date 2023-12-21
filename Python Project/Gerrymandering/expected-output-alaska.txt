@@ -1,0 +1,10 @@
+This program allows you to search through
+data about congresssional voting districts
+and determine whether a particular state is
+gerrymandered.
+
+Which state do you want to look up? alaska
+Total Wasted Democratic votes: 114596
+Total Wasted Republican votes: 13984
+Gerrymandered benefiting the Republicans
+519501 elgible voters

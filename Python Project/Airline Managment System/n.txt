@@ -1,0 +1,122 @@
+PS C:\Users\Manish> & E:/python.exe "c:/Users/Manish/Desktop/import mysql.connector.py"
+
+********************Welcome to Flight Booking System***********************
+
+Do you have an account (Y/N): N
+
+-------Account creation-------
+
+Enter your full name: MANISH
+
+Enter your phone no: 8982119115
+
+Enter your city name: BHOPAL
+
+Enter your state: MP
+
+Enter your Email ID: MANISH4051K@GMAIL.COM
+
+Enter your Password: MANISH@4051
+
+Sending OTP to MANISH4051K@GMAIL.COM...
+
+Enter the OTP Code sent to your Email ID: 188880
+Verified.
+
+-------Your Account is Created Successfully-------
+
+how do you want to search your flight by :-
+1.flight number
+2.mannualy
+
+Answer (1/2):-2
+
+Enter your departure locaion:-GOA
+
+Enter your arrival location:-BENGALURU
+
+Your required flights are------
+AirlinesName
+--------------
+spicejet
+
+Enter a flight name you want:-SPICEJET
+
+Here are the details of your flight-----
+  SNO  AirlinesName    Departure    Destination    FlightNumber    TimeofDeparture    TimeofArrival      Charges
+-----  --------------  -----------  -------------  --------------  -----------------  ---------------  ---------
+    4  spicejet        goa          bengaluru      SG3720          08:10:00           09:55:00              6500
+
+Would you like to continue? (Y/N):-Y
+
+Enter a number of passangers:-2
+
+Enter a name of a passenger:-MANISH
+
+Enter the age of MANISH:-18
+
+Male/Female:-MALE
+
+-------Data entered successfully-------
+
+Enter a name of a passenger:-PRIYANSH
+
+Enter the age of PRIYANSH:-17
+
+Male/Female:-MALE
+
+-------Data entered successfully-------
+{'name': 'MANISH', 'age': '18', 'gender': 'MALE'}
+{'name': 'name', 'age': 'age', 'gender': 'gender'}
+{'name': 'PRIYANSH', 'age': '17', 'gender': 'MALE'}
+------------------------------------
+
+Check your details----
+
+Do you want to continue? (Y/N):-Y
+
+Choose the class you want:-
+1.Economy class
+2.Business class (+20% Charges)
+3.First class (+40% Charges)
+
+Enter class no (1/2/3):-3
+
+names = ['MANISH', 'PRIYANSH']               age = [18, 17]           gender = ['MALE', 'MALE']
+flight name = ['SPICEJET']         departure = ['GOA']       destination = ['BENGALURU']
+flight number = [('SG3720',)]      diparture time = [('08:10:00',)]        arrival time = [('09:55:00',)]
+class = first class
+
+You have to pay (Decimal('18200.0'),) rupees
+
+To pay press (p):-P
+
+How you want to pay ?
+1.Google pay
+2.Amazon pay
+3.Paypal
+4.Apple pay
+5.Credit card
+6.Debit card
+
+Enter your payment method (1/2/3/4........):-2
+
+-------------------Amazon pay---------------------------
+Pay (Decimal('18200.0'),) rupees
+
+To continue payment press (p):-P
+
+Enter the otp code sent to your email id: 311119
+Verified.
+Processing...
+
+Transaction successful------------
+
+**********Thank you***********
+
+--------Thanks for using flight booking system--------------
+
+Your tickets are send to your email MANISH4051K@GMAIL.COM
+
+See you later :)
+PS C:\Users\Manish> 
